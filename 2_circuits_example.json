@@ -1,0 +1,280 @@
+{
+    "exerciseTemplates": [{
+        "completed": {
+            "sets": []
+        },
+        "exerciseId": "circuit1",
+        "exerciseMetadata": {
+            "exerciseMetadataId": "4837492837402384092830948209",
+            "instructions": " Eyes Up lift heavy.",
+            "quantityType": "resistance",
+            "tags": ["Legs", "Core", "Quads", "Hamstrings"],
+            "title": "Squat"
+        },
+        "target": {
+            "sets": [{
+                "exerciseName": "Squat",
+                "exerciseSetPos": 0,
+                "reps": 10,
+                "rest": 0,
+                "setId": "5375ca9e-0b77-4ead-ad4d-59608c37f4cc",
+                "setOrder": 0,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 100.3
+            }, {
+                "exerciseName": "Squat",
+                "exerciseSetPos": 1,
+                "reps": 12,
+                "rest": 0,
+                "setId": "62f9d7c9-e266-4d40-84cd-85d7bc790910",
+                "setOrder": 1,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 50
+            }, {
+                "exerciseName": "Squat",
+                "exerciseSetPos": 2,
+                "reps": 5,
+                "rest": 0,
+                "setId": "0642fafe-52cc-4942-a9a8-cc3a3985f0ba",
+                "setOrder": 2,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 120
+            }]
+        }
+    }, {
+        "completed": {
+            "sets": []
+        },
+        "exerciseId": "circuit1",
+        "exerciseMetadata": {
+            "exerciseMetadataId": "93284928374982342384682376429",
+            "instructions": " Eyes Up lift heavy.",
+            "quantityType": "resistance",
+            "tags": ["Pecks", "Core", "triceps"],
+            "title": "Bench"
+        },
+        "target": {
+            "sets": [{
+                "exerciseName": "Bench",
+                "exerciseSetPos": 0,
+                "reps": 20,
+                "rest": 0,
+                "setId": "05500fdd-b1ae-4c0d-9ca2-358583fb667e",
+                "setOrder": 0,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 120.1
+            }, {
+                "exerciseName": "Bench",
+                "exerciseSetPos": 1,
+                "reps": 15,
+                "rest": 0,
+                "setId": "489efc86-82c6-4d34-bf33-989231895cfd",
+                "setOrder": 1,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 70
+            }, {
+                "exerciseName": "Bench",
+                "exerciseSetPos": 2,
+                "reps": 3,
+                "rest": 0,
+                "setId": "3613af80-d072-41f7-84b4-9cd8e28beca5",
+                "setOrder": 2,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 140.2
+            }]
+        }
+    }, {
+        "completed": {
+            "sets": []
+        },
+        "exerciseId": "2daf0c28-3516-43b7-a5ab-d8437695f341",
+        "exerciseMetadata": {
+            "exerciseMetadataId": "121212493048098420398402682376429",
+            "instructions": " Eyes Up lift heavy.",
+            "quantityType": "resistance",
+            "tags": ["Pecks", "Core", "triceps"],
+            "title": "Dips"
+        },
+        "target": {
+            "sets": [{
+                "exerciseName": "",
+                "exerciseSetPos": 0,
+                "reps": 10,
+                "rest": 0,
+                "setId": "8c6e5846-30fb-4612-b71f-efee2b667e3e",
+                "setOrder": 0,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 100.3
+            }, {
+                "exerciseName": "",
+                "exerciseSetPos": 0,
+                "reps": 12,
+                "rest": 0,
+                "setId": "bd367bb6-e89b-4340-bcca-f280d3fb845f",
+                "setOrder": 1,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 50
+            }, {
+                "exerciseName": "",
+                "exerciseSetPos": 0,
+                "reps": 5,
+                "rest": 0,
+                "setId": "496dde4d-83a6-4918-b649-5f000ff6c409",
+                "setOrder": 2,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 120
+            }, {
+                "exerciseName": "",
+                "exerciseSetPos": 0,
+                "reps": 6,
+                "rest": 0,
+                "setId": "4be4009f-c80f-4ee8-a394-174d8a4ceab3",
+                "setOrder": 3,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 130
+            }]
+        }
+    },{
+        "completed": {
+            "sets": []
+        },
+        "exerciseId": "circuit2",
+        "exerciseMetadata": {
+            "exerciseMetadataId": "4be4009f-c80f-4ee8-a394-174d8a4ceab3",
+            "instructions": " Eyes Up lift heavy.",
+            "quantityType": "resistance",
+            "tags": ["Pecks", "Core", "triceps"],
+            "title": "Crunches"
+        },
+        "target": {
+            "sets": [{
+                "exerciseName": "Crunches",
+                "exerciseSetPos": 0,
+                "reps": 10,
+                "rest": 0,
+                "setId": "4be400dfhsdkf9f-c80f-4ee8-a394-17fhsdkfsdhjkfab3",
+                "setOrder": 0,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 100.3
+            }, {
+                "exerciseName": "Crunches",
+                "exerciseSetPos": 1,
+                "reps": 12,
+                "rest": 0,
+                "setId": "43636009f-c80f-4ee8-a394-17dgkfsdkfab3",
+                "setOrder": 1,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 50
+            }, {
+                "exerciseName": "Crunches",
+                "exerciseSetPos": 2,
+                "reps": 5,
+                "rest": 0,
+                "setId": "hdsfkjshfkjshfkjsdhjkfhsdjfhsdfh",
+                "setOrder": 2,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 120
+            }, {
+                "exerciseName": "Crunches",
+                "exerciseSetPos": 3,
+                "reps": 6,
+                "rest": 0,
+                "setId": "89f9ef9syf0sd7s8dc8sdy09sdc0s0d",
+                "setOrder": 3,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 130
+            }]
+        }
+    },{
+        "completed": {
+            "sets": []
+        },
+        "exerciseId": "circuit2",
+        "exerciseMetadata": {
+            "exerciseMetadataId": "4be4009f-c80f-4ee8-a394-8739570450394",
+            "instructions": " Eyes Up lift heavy.",
+            "quantityType": "resistance",
+            "tags": ["Pecks", "Core", "triceps"],
+            "title": "lunges"
+        },
+        "target": {
+            "sets": [{
+                "exerciseName": "lunges",
+                "exerciseSetPos": 0,
+                "reps": 10,
+                "rest": 0,
+                "setId": "4bughdsfiuvhwiufhwiuhvsiuhfwkejhfkjw",
+                "setOrder": 0,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 100.3
+            }, {
+                "exerciseName": "lunges",
+                "exerciseSetPos": 1,
+                "reps": 12,
+                "rest": 0,
+                "setId": "dfhseifugweiufwiehfweihfowehf",
+                "setOrder": 1,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 50
+            }, {
+                "exerciseName": "lunges",
+                "exerciseSetPos": 2,
+                "reps": 5,
+                "rest": 0,
+                "setId": "dufhvs8vw9euv0wehv0wfuqfewhof",
+                "setOrder": 2,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 120
+            }, {
+                "exerciseName": "lunges",
+                "exerciseSetPos": 3,
+                "reps": 6,
+                "rest": 0,
+                "setId": "fihfowfwienvsnvjwbiwefwbcwbcwejn",
+                "setOrder": 3,
+                "time": 0,
+                "unit": "",
+                "untilFailure": false,
+                "weight": 130
+            }]
+        }
+    }],
+    "time": "2016-08-27T12:30:15.000-07:00",
+    "title": "myWorkout",
+    "traineeId": "11111111-1111-1111-1111-111111111111",
+    "workoutId": "fds98vs98v9s8yv0sfv08dsu0vusf0v8s08"
+}

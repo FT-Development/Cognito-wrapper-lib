@@ -1,0 +1,98 @@
+<html ng-app>
+	<head>
+		<title>Cognito Example</title>
+
+		<!-- Angtablear Lib -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+
+		<!-- Our Example JS -->
+		<script src="sample.js"></script>
+
+		<!-- Cognito Dependencies -->
+		<script src="cognito-js-sdk/lib/jsbn.js"></script> <!-- BigInteger -->
+		<script src="cognito-js-sdk/lib/jsbn2.js"></script> <!-- BigInteger Library -->
+		<script src="cognito-js-sdk/lib/sjcl.js"></script> <!-- Stanford JavaScript Crypto Library -->
+		<script src="cognito-js-sdk/lib/moment.js"></script> <!-- Moments Date Maniptableation -->
+		<script src="cognito-js-sdk/lib/aws-cognito-sdk.min.js"></script>
+		<script src="cognito-js-sdk/lib/amazon-cognito-identity.min.js"></script>
+		<script src="cognito-js-sdk/lib/aws-sdk.min.js"></script>
+		<script src="cognito-js-sdk/cognitoClient.js"></script>
+	</head>
+	<body>
+		<h1>Log In Tester</h1>
+		<div ng-controller="CognitoCtrl">
+				<div ng-show="loginSignupPage">
+					<button ng-click="goToLogin()">login</button>
+					<button ng-click="goToSignUp()">sign up</button>
+				</div>
+
+				<div ng-show="loggingIn">
+					<div>
+				      <label>
+				        <span>Your Email Address</span>
+				        <input type="text" id="form__email" ng-model="email" placeholder="Email Address"/>
+				      </label>
+				    </div>
+				    <div>
+				      <label>
+				        <span>Your Password</span>
+				        <input type="password" id="form__password" ng-model="passwordLogin" placeholder="Password"/>
+				      </label>
+				    </div>
+				    <button ng-click="login()">login</button>
+				    <button ng-click="goToForgotPassword()">forgot password</button>
+				    <button ng-click="goToSignUp()">take me to sign up</button>
+				</div>
+
+				<div ng-show="signup">
+					<div>
+				      <label>
+				        <span>Your Email Address</span>
+				        <input type="text" id="form__email" ng-model="email" placeholder="Email Address"/>
+				      </label>
+				    </div>
+				    <div>
+				      <label>
+				        <span>Your Password</span>
+				        <input type="password" id="form__password" ng-model="passwordSignUp" placeholder="Password"/>
+				      </label>
+				    </div>
+				    <button ng-click="goToConfirm()">sign up</button>
+				    <button ng-click="goToLogin()">Take me to login</button>
+				</div>
+
+				<div ng-show="confirm">
+					<div>
+				      <label>
+				        <span>Verification Code</span>
+				        <input type="text" id="form__verification" ng-model="verificationCodeConfirm" placeholder="Verification Code"/>
+				      </label>
+				    </div>
+				    <button ng-click="confirmSignUp()">confirm</button>
+				</div>
+
+				<div ng-show="forgotPassword">
+					<div>
+				      <label>
+				        <span>Verification Code</span>
+				        <input type="text" id="form__verification" ng-model="verificationCodeForgotPassword" placeholder="Verification Code"/>
+				      </label>
+				    </div>
+				    <div>
+				      <label>
+				        <span>New Password</span>
+				        <input type="password" id="form__new__password" ng-model="newPassword" placeholder="New Password"/>
+				      </label>
+				    </div>
+				    <button ng-click="resetPassword()">reset password</button>
+				</div>
+
+				<div ng-show="homePage">
+					<span>You are logged in as {{username}}</span>
+					<button ng-click="signOut()">sign out</button>
+				</div>
+
+		</div>
+	</body>
+</html>
+  
